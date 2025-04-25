@@ -1,0 +1,61 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  background: #1f2937;
+  color: white;
+  padding: 40px 20px;
+}
+
+header .buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background: #3b82f6;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.filters {
+  background: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.filters input, .filters select {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+}
+
+.athlete-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.athlete-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  background: #1f2937;
+  color: white;
+}
